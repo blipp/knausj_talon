@@ -22,7 +22,7 @@ class Actions:
     def i3wm_launch():
         """Trigger the i3 launcher: ex rofi"""
         key = settings.get("user.i3_mod_key")
-        actions.key(f"{key}-d")
+        actions.key(f"{key}-a")
 
     def i3wm_shell():
         """Launch a shell"""
@@ -32,4 +32,4 @@ class Actions:
     def i3wm_lock():
         """Trigger the lock screen"""
         key = settings.get("user.i3_mod_key")
-        actions.key(f"{key}-shift-x")
+        actions.key(f"alt-ctrl-l")
