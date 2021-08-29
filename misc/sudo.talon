@@ -1,0 +1,3 @@
+tag: terminal
+-
+sudo: "sudo "
